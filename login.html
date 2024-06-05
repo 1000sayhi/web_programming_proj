@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script>
+        window.onload = function() {
+            const params = new URLSearchParams(window.location.search);
+            const error = params.get('error');
+            if (error) {
+                const errorMessage = {
+                    wrongpassword: 'wrong password',
+                    nouser: 'no account exists.'
+                }[error];
+                if (errorMessage) {
+                    alert(errorMessage);
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="login-container">
+        <h1>login</h1>
+        <form action="login.php" method="post" id="loginForm">
+            <div>
+            <label>Email</label>
+            <input type="email" name="email" required>
+            </div>
+            <div>
+            <label>password</label>
+            <input type="password" name="password" required>
+            </div>
+            <button type="submit">login</button>
+        </form>
+        <p>No account? <a href="register.html">register</a></p>
+    </div>
+</body>
+</html>

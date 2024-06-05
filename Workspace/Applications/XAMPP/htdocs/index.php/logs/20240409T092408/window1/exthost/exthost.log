@@ -1,0 +1,237 @@
+2024-04-09 09:24:09.393 [info] Extension host with pid 86497 started
+2024-04-09 09:24:09.704 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-09 09:24:09.710 [info] ExtensionService#_doActivateExtension AntiAntiSepticeye.vscode-color-picker, startup: true, activationEvent: '*'
+2024-04-09 09:24:09.717 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2024-04-09 09:24:09.721 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-04-09 09:24:09.769 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-09 09:24:09.831 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-09 09:24:09.964 [info] Eager extensions activated
+2024-04-09 09:24:09.981 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:09.983 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:10.001 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:10.037 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:10.122 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:10.144 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:10.168 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:10.231 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:10.245 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:10.254 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:10.324 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:33.045 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-09 09:24:33.066 [error] Canceled: Canceled
+    at new g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:57216)
+    at i.U (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:10864)
+    at Proxy.M.<computed>.j.charCodeAt.M.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+    at n.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83747)
+    at n.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at b.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:82506)
+    at n.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+    at n.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83278)
+    at n.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:21282)
+    at w (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1081:41198)
+    at h (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1081:46237)
+    at ActionRunners._updateContextKeys (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:18411)
+    at s (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16855)
+    at RegisteredActionRunner.unregister (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16998)
+    at RegisteredActionRunner.dispose (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:15651)
+    at ActionRunners.dispose (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16438)
+    at /Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1041:19519
+    at Array.forEach (<anonymous>)
+    at Object.dispose (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1041:19501)
+    at o (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at s.cb (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:9846)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:7796
+    at Array.map (<anonymous>)
+    at s.Y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:7784)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:8054)
+    at o.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+    at l (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:9801)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:6226)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-04-09 09:24:33.066 [error] Canceled: Canceled
+    at new g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:57216)
+    at i.U (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:10864)
+    at Proxy.M.<computed>.j.charCodeAt.M.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+    at n.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83747)
+    at n.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at b.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:82506)
+    at n.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+    at n.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83278)
+    at n.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:21282)
+    at w (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1081:41198)
+    at h (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1081:46237)
+    at ActionRunners._updateContextKeys (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:18411)
+    at s (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16855)
+    at RegisteredActionRunner.unregister (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16998)
+    at RegisteredActionRunner.dispose (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:15651)
+    at ActionRunners.dispose (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16438)
+    at /Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1041:19519
+    at Array.forEach (<anonymous>)
+    at Object.dispose (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1041:19501)
+    at o (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at s.cb (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:9846)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:7796
+    at Array.map (<anonymous>)
+    at s.Y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:7784)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:8054)
+    at o.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+    at l (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:9801)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:6226)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-04-09 09:24:33.067 [error] Canceled: Canceled
+    at new g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:57216)
+    at i.U (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:10864)
+    at Proxy.M.<computed>.j.charCodeAt.M.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+    at n.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83747)
+    at n.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at b.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:82506)
+    at n.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+    at n.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83278)
+    at n.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:21282)
+    at w (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1081:41198)
+    at h (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1081:46237)
+    at ActionRunners._updateContextKeys (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:18411)
+    at s (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16855)
+    at RegisteredActionRunner.unregister (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16998)
+    at RegisteredActionRunner.dispose (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:15651)
+    at ActionRunners.dispose (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16438)
+    at /Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1041:19519
+    at Array.forEach (<anonymous>)
+    at Object.dispose (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1041:19501)
+    at o (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at s.cb (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:9846)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:7796
+    at Array.map (<anonymous>)
+    at s.Y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:7784)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:8054)
+    at o.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+    at l (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:9801)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:6226)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-04-09 09:24:33.067 [info] Extension host with pid 86497 exiting with code 0
+2024-04-09 09:24:33.563 [info] Extension host with pid 86548 started
+2024-04-09 09:24:33.563 [info] Skipping acquiring lock for /Applications/XAMPP/xamppfiles/htdocs/Workspace/Applications/XAMPP/htdocs/index.php/User/workspaceStorage/ab3423f749ab79be196980aace58dfcf.
+2024-04-09 09:24:33.591 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-04-09 09:24:33.593 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2024-04-09 09:24:33.594 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-04-09 09:24:33.628 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-09 09:24:33.730 [info] Eager extensions activated
+2024-04-09 09:24:33.772 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:33.774 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:33.777 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:33.795 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:33.801 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:33.819 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:40.215 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-04-09 09:24:40.232 [info] ExtensionService#_doActivateExtension AntiAntiSepticeye.vscode-color-picker, startup: false, activationEvent: '*'
+2024-04-09 09:24:40.234 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:40.241 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:40.258 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:40.262 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:40.280 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-04-09 09:24:43.809 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2024-04-09 09:24:43.818 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-09 09:24:53.341 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-09 09:24:53.361 [error] Canceled: Canceled
+    at new g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:57216)
+    at i.U (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:10864)
+    at Proxy.M.<computed>.j.charCodeAt.M.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+    at n.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83747)
+    at n.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at b.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:82506)
+    at n.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+    at n.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83278)
+    at n.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:21282)
+    at w (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1081:41198)
+    at h (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1081:46237)
+    at ActionRunners._updateContextKeys (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:18411)
+    at s (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16855)
+    at RegisteredActionRunner.unregister (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16998)
+    at RegisteredActionRunner.dispose (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:15651)
+    at ActionRunners.dispose (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16438)
+    at /Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1041:19519
+    at Array.forEach (<anonymous>)
+    at Object.dispose (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1041:19501)
+    at o (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at s.cb (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:9846)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:7796
+    at Array.map (<anonymous>)
+    at s.Y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:7784)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:8054)
+    at o.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+    at l (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:9801)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:6226)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-04-09 09:24:53.362 [error] Canceled: Canceled
+    at new g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:57216)
+    at i.U (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:10864)
+    at Proxy.M.<computed>.j.charCodeAt.M.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+    at n.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83747)
+    at n.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at b.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:82506)
+    at n.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+    at n.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83278)
+    at n.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:21282)
+    at w (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1081:41198)
+    at h (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1081:46237)
+    at ActionRunners._updateContextKeys (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:18411)
+    at s (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16855)
+    at RegisteredActionRunner.unregister (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16998)
+    at RegisteredActionRunner.dispose (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:15651)
+    at ActionRunners.dispose (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16438)
+    at /Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1041:19519
+    at Array.forEach (<anonymous>)
+    at Object.dispose (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1041:19501)
+    at o (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at s.cb (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:9846)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:7796
+    at Array.map (<anonymous>)
+    at s.Y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:7784)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:8054)
+    at o.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+    at l (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:9801)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:6226)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-04-09 09:24:53.362 [error] Canceled: Canceled
+    at new g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:57216)
+    at i.U (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:10864)
+    at Proxy.M.<computed>.j.charCodeAt.M.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+    at n.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83747)
+    at n.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at b.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:82506)
+    at n.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+    at n.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83278)
+    at n.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:21282)
+    at w (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1081:41198)
+    at h (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1081:46237)
+    at ActionRunners._updateContextKeys (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:18411)
+    at s (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16855)
+    at RegisteredActionRunner.unregister (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16998)
+    at RegisteredActionRunner.dispose (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:15651)
+    at ActionRunners.dispose (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16438)
+    at /Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1041:19519
+    at Array.forEach (<anonymous>)
+    at Object.dispose (/Users/user/.vscode/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1041:19501)
+    at o (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at s.cb (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:9846)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:7796
+    at Array.map (<anonymous>)
+    at s.Y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:7784)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:8054)
+    at o.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+    at l (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:9801)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:6226)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-04-09 09:24:53.362 [info] Extension host with pid 86548 exiting with code 0

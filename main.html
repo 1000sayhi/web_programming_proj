@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>used clothing shop</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <h1>used clothing shop</h1>
+        <nav>
+            <a href="profile.html">profile</a>
+            <a href="clothingRegister.html">clothing sell</a>
+            <a href="logout.php">logout</a>
+        </nav>
+    </header>
+    <main>
+    <h1>clothing list</h1>
+    <div class="clothing-list" id="clothingList"></div>
+    <script>
+        window.onload = function() {
+            fetch('get_clothings.php')
+                .then(response => response.json())
+                .then(data => {
+                    const clothingList = document.getElementById('clothingList');
+                    if (data.error) {
+                        alert(data.error);
+                        window.location.href = 'login.html';
+                    } else {
+                        data.forEach(clothing => {
+                        const clothingItem = document.createElement('div');
+                        clothingItem.className = 'clothing-item';
+                        clothingItem.innerHTML = `
+                            <img src="data:image/png;base64,${clothing.image}" alt="${clothing.title}">
+                            <div>
+                            <h3>${clothing.title}</h3>
+                            <p>$${clothing.price}</p>
+                            </div>
+                        `;
+                        clothingList.appendChild(clothingItem);
+                    });
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+    </main>
+</body>
+</html>

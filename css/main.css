@@ -1,0 +1,57 @@
+body {
+    background-color: #F5F5DC;
+    color: #FF8C00;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: orange;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+main{
+    padding: 40px;
+}
+.clothing-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clothing-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    background-color: #f0f0f0; 
+    padding: 10px;
+    width: 28%;
+    height: 300px;   
+    border: 1px solid #ccc; 
+    margin: 5px;
+    overflow: hidden;
+}
+
+.clothing-item img {
+    max-width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.clothing-item h3 {
+    text-align: center;
+}
+
+.clothing-item p {
+    color: black;
+}

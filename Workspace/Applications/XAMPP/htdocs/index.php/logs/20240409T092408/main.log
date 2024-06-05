@@ -1,0 +1,58 @@
+2024-04-09 09:24:08.346 [info] update#setState idle
+2024-04-09 09:24:33.069 [info] Extension host with pid 86497 exited with code: 0, signal: unknown.
+2024-04-09 09:24:38.196 [info] update#setState checking for updates
+2024-04-09 09:24:38.620 [info] update#setState downloading
+2024-04-09 09:24:53.370 [info] Extension host with pid 86548 exited with code: 0, signal: unknown.
+2024-04-09 09:26:03.923 [info] update#setState ready
+2024-04-09 10:38:49.540 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-09 10:39:29.971 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-09 11:14:02.642 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-09 12:23:55.854 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-09 12:46:37.200 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-09 14:16:28.058 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-09 14:48:33.011 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-09 21:06:19.868 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-09 21:41:27.904 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 03:05:48.110 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 04:29:21.931 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 05:35:09.440 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 06:59:10.955 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 08:22:24.617 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 09:27:39.354 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 10:15:49.257 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 11:19:30.132 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 11:35:56.107 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 12:09:08.371 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 12:23:20.605 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 13:08:25.740 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 13:13:56.726 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 16:26:40.240 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 16:27:54.853 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 16:42:47.294 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 16:44:12.691 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 17:24:01.364 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 20:56:13.616 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 21:32:49.970 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 21:44:25.587 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-10 23:18:32.161 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 00:36:15.436 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 03:12:29.415 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 04:02:08.266 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 05:21:39.275 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 06:42:40.147 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 07:18:12.049 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 07:52:46.557 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 08:39:43.761 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 09:05:38.608 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 09:07:51.424 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 10:02:48.125 [info] Extension host with pid 92782 exited with code: 0, signal: unknown.
+2024-04-11 10:02:54.476 [info] Extension host with pid 92824 exited with code: 0, signal: unknown.
+2024-04-11 11:46:40.171 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 11:48:50.050 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 11:50:12.949 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 11:52:46.266 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 11:55:29.193 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 12:00:44.483 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 12:00:59.517 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 12:03:33.895 [warning] No ptyHost heartbeat after 6 seconds
+2024-04-11 12:03:38.947 [info] Extension host with pid 92836 exited with code: 0, signal: unknown.

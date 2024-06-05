@@ -1,0 +1,61 @@
+body {
+    background-color: #F5F5DC;
+    color: #FF8C00;
+}
+
+.register-container {
+max-width: 400px;
+background-color: white;
+margin: 100px auto;
+padding: 30px;
+border-radius: 5px;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+text-align: center;
+margin-bottom: 30px;
+}
+
+#registerForm {
+display: flex;
+flex-direction: column;
+}
+
+label {
+margin-bottom: 5px;
+}
+
+input {
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 6px;
+}
+
+button {
+background-color: #FF8C00;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #FF8C00;
+}
+
+p {
+text-align: center;
+margin-top: 20px;
+}
+
+a {
+color: #e1a153;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}

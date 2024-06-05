@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <div class="register-container">
+        <h1>register</h1>
+        <form action="register.php" method="post" id="registerForm">
+            <label>name</label>
+            <input type="text" name="name" required>
+            <label>email</label>
+            <input type="email" name="email" required>
+            <label for="password">password</label>
+            <input type="password" name="password" required>
+            <button type="submit">register</button>
+        </form>
+        <p>you have already account? <a href="login.html">login</a></p>
+    </div>
+</body>
+</html>

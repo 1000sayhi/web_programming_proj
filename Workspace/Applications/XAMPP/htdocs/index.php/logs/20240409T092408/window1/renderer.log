@@ -1,0 +1,14 @@
+2024-04-09 09:24:08.729 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'languageConfigurationAutoClosingPairs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-04-09 09:24:08.738 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'terminalContextMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-04-09 09:24:09.342 [error] Extension 'ms-python.python' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent
+product.json (WINS): contribEditorContentMenu, quickPickSortByLabel, portsAttributes, testObserver, quickPickItemTooltip, terminalDataWriteEvent, saveEditor
+2024-04-09 09:24:11.809 [info] [perf] Render performance baseline is 16ms
+2024-04-09 09:24:33.207 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'languageConfigurationAutoClosingPairs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-04-09 09:24:33.208 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'terminalContextMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-04-09 09:24:33.346 [error] Extension 'ms-python.python' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent
+product.json (WINS): contribEditorContentMenu, quickPickSortByLabel, portsAttributes, testObserver, quickPickItemTooltip, terminalDataWriteEvent, saveEditor
+2024-04-09 09:24:35.891 [info] [perf] Render performance baseline is 16ms
+2024-04-09 09:24:47.041 [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/Applications/XAMPP/xamppfiles/htdocs/index.php' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/Applications/XAMPP/xamppfiles/htdocs/index.php') file:///Applications/XAMPP/xamppfiles/htdocs/index.php
+2024-04-09 09:24:53.328 [warning] [backup tracker] suspended, ignoring dirty change event file:///Applications/XAMPP/xamppfiles/htdocs/index.php 

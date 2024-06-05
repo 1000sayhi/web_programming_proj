@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sell clothing</title>
+    <link rel="stylesheet" href="css/clothingRegister.css">
+</head>
+<body>
+    <div class="register-clothing-container">
+        <h1>sell</h1>
+        <form id="registerClothingForm" action="register_clothing.php" method="post" enctype="multipart/form-data">
+            <label for="title">name</label>
+            <input type="text" id="title" name="title" required>
+            <label for="description">description</label>
+            <textarea id="description" name="description" required></textarea>
+            <label for="price">price($)</label>
+            <input type="number" id="price" name="price" required>
+            <label for="image">image</label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+            <button type="submit">register</button>
+        </form>
+        <a href="main.html">back</a>
+    </div>
+    
+</body>
+</html>
